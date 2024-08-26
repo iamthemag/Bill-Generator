@@ -12,7 +12,7 @@ item_number=1
 
 # Prompt the user for menu items and prices
 while true; do
-    read -p "Enter the item name (or type '-1' to finish): " item_name
+    read -p "Enter the item $item_number name (or type '-1' to finish): " item_name
 
     # Check if the user is done
     if [[ "$item_name" == "-1" ]]; then
@@ -31,7 +31,7 @@ done
 
 # Get the current date for the file name
 current_date=$(date +"%d-%m-%Y")
-output_file="${restaurant_name}_bill_${current_date}.sh"
+output_file="${restaurant_name}_bill_generator_${current_date}.sh"
 
 # Generate the bill generator script
 cat <<EOF > $output_file
