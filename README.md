@@ -2,6 +2,8 @@
 
 # Bill Generator
 
+## Sample 
+![Sample Bill Image](https://github.com/iamthemag/Bill-Generator/blob/main/sample/Sample-bill.png)
 ## Overview
 
 The Bill Generator is a robust and user-friendly tool designed to automate the billing process for restaurants and similar establishments. This script simplifies bill creation by integrating menu items, prices, and real-time user inputs into a comprehensive and professionally formatted bill. It leverages the power of Bash scripting to ensure efficiency, accuracy, and ease of use.
