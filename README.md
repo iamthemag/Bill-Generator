@@ -29,6 +29,9 @@ The Bill Generator is a robust and user-friendly tool designed to automate the b
 
 ## Installation
 
+if using windows 
+    - [Download LibreOffice](https://www.libreoffice.org/get-help/install-howto/windows/)
+
 1. Clone the repository:
 
     ```bash
