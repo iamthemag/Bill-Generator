@@ -123,10 +123,17 @@ libreoffice --headless --convert-to pdf \$bill_file --outdir .
 # Rename the PDF to match the required format
 mv "\${bill_file%.txt}.pdf" "\$pdf_file"
 
-# Send the PDF to the printer
-lp \$pdf_file
+# List available printers
+echo "Available printers:"
+lpstat -p | awk '{print $2}'
 
-echo "Your bill has been generated as \$pdf_file and sent to the printer."
+# Prompt the user to select a printer
+read -p "Enter the printer name you want to use: " printer_name
+
+# Send the PDF to the selected printer
+lp -d "$printer_name" "$pdf_file"
+
+echo "Your bill has been generated as $pdf_file and sent to the printer $printer_name."
 EOF
 
 # Make the generated script executable
