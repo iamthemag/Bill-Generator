@@ -1,0 +1,12 @@
+-------- Delight --------
+Date: 27-08-2024
+Time: 00:54:55
+Order ID: 2708240054
+---------------------------------
+Biryani (x3): ₹360
+Chicken 65 (x1): ₹80
+Salad (x2): ₹100
+Coke (x4): ₹80
+---------------------------------
+Total: ₹620
+Thank you for dining with us!
